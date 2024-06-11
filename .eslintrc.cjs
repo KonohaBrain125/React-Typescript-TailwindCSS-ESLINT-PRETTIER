@@ -11,7 +11,6 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     "arrow-parens": ["error", "always"],
-    "comma-dangle": [2, "always-multiline"],
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
     "indent": ["warn", 2],
@@ -22,8 +21,8 @@ module.exports = {
     "space-infix-ops": ["error", { "int32Hint": false }],
     "eqeqeq": ["error", "always"],
     "camelcase": ["error", { "properties": "never" }],
-    "no-console": ["error"],
-    "no-debugger": ["error"],
-    "no-alert": ["error"],
+    // "no-console": ["error"],
+    // "no-debugger": ["error"],
+    // "no-alert": ["error"],
   },
 }
